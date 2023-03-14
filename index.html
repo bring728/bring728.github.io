@@ -135,19 +135,6 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    Overview
-                </h3>
-                <img src="./index_files/teaser.png" class="img-responsive" alt="overview"><br>
-                <p class="text-justify">
-                    We propose a scene-level inverse rendering framework that uses multi-view images to decompose the scene into geometry, a SVBRDF, and 3D spatially-varying lighting. Because multi-view images provide a variety of information about the scene, multi-view images in object-level inverse rendering have been taken for granted. However, owing to the absence of multi-view HDR synthetic dataset, scene-level inverse rendering has mainly been studied using single-view image. We were able to successfully perform scene-level inverse rendering using multi-view images by expanding OpenRooms dataset and designing efficient pipelines to handle multi-view images, and splitting spatially-varying lighting. Our experiments show that the proposed method not only achieves better performance than single-view-based methods, but also achieves robust performance on unseen real-world scene. Also, our sophisticated 3D spatially-varying lighting volume allows for photorealistic object insertion in any 3D location.
-                </p>
-            </div>
-        </div>
-        
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
                     Pipeline
                 </h3>
                 <img src="./index_files/mair_framework.png" class="img-responsive" alt="overview"><br>
@@ -158,11 +145,33 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    Editing Applications: Move Virtual Lamps
+                    Object Insertion
                 </h3>
                 <div class="text-center">
                     <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
-                        <source src="index_files/oi1.mp4" type="video/mp4">
+                        <source src="index_files/oi1_html.mp4" type="video/mp4">
+                    </video>
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="index_files/oi2_html.mp4" type="video/mp4">
+                    </video>
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="index_files/oi3_html.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    View Synthesis + Chrome Sphere Insertion
+                </h3>
+                <div class="text-center">
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="index_files/viewsyn1_html.mp4" type="video/mp4">
+                    </video>
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="index_files/viewsyn2_html.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -173,7 +182,7 @@
                 <h3>
                     Acknowledgments
                 </h3>
-                The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a> and <a href="https://vilab-ucsd.github.io/ucsd-openrooms/">OpenRooms (Zhengqin Li)</a>.
+                The image used for object insertion is data from <a href="https://github.com/googleinterns/IBRNet">IBRNet</a>. The view synthesis results were created using <a href="https://github.com/sunset1995/DirectVoxGO">DirectVoxGo</a>. The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a> and <a href="https://vilab-ucsd.github.io/ucsd-openrooms/">OpenRooms (Zhengqin Li)</a>.
                 <p></p>
             </div>
         </div>
