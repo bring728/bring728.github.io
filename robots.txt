@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://bring728.github.io/mair.project/sitemap.xml
